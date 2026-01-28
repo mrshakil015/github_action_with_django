@@ -21,10 +21,6 @@ cd github_actions_projects
 echo "Installing dependencies..."
 pip install -r requirements.txt
 
-# Collect static files
-echo "Serving statif files..."
-python manage.py collectstatic --noinput
-
 # Run migrations
 echo "Running database migrations..."
 python manage.py makemigrations
