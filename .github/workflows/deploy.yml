@@ -1,4 +1,4 @@
-name: Django CI/CD Pipeline with GitHub Actions on VPS
+name: Django CI/CD Pipeline with GitHub Actions on VPS Server
 
 on:
   push:
